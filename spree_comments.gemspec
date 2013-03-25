@@ -15,8 +15,9 @@ Gem::Specification.new do |s|
   s.require_path  = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '>= 1.2.0'
+  s.add_dependency 'spree_core', '>= 1.3.0'
   s.add_dependency 'acts_as_commentable', '3.0.1'
   s.add_development_dependency 'rspec-rails'
+  s.add_development_dependency 'sqlite3'
 
 end
